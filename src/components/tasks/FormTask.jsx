@@ -2,7 +2,7 @@ import React from 'react'
 
 export const FormTask = () => {
     return (
-        <form className='p-5 md:p-10 w-full md:w-1/2 bg-white shadow-lg rounded-xl'>
+        <form className='p-5 mb-7 md:p-10 w-full md:w-1/2 bg-white shadow-lg rounded-xl'>
             <div className='flex flex-col'>
                 <label>Titulo</label>
                 <input type="text" className='border border-gray-400 rounded-xl px-5 py-2'/>

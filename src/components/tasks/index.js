@@ -1,3 +1,4 @@
 export * from './CardTask'
 export * from './FormTask'
-export * from './ListTasks'
+export * from './ListTasksCompleted'
+export * from './ListTasksPending'

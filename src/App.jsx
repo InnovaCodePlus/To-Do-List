@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { tasksConstants } from './constants';
 
 import { MainLayout } from './Layouts/MainLayout'
-import { ListTasks } from './components'
+import { ListTasksCompleted, ListTasksPending } from './components'
 
 const App = () => {
 
@@ -11,7 +11,8 @@ const App = () => {
 
     return (
         <MainLayout>
-            <ListTasks tasks={ tasks }/>
+            <ListTasksPending tasks={ tasks } setTasks={ setTasks }/>
+            <ListTasksCompleted tasks={ tasks } setTasks={ setTasks }/>
         </MainLayout>
     )
 }
