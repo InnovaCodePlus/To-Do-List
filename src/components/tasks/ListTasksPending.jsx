@@ -3,7 +3,7 @@ import { CardTask } from './CardTask'
 export const ListTasksPending = ({ tasks, setTasks }) => {
     return (
         <>
-            <h2>Tareas Pendientes</h2>
+            <h2 className='text-2xl mb-3'>Tareas Pendientes</h2>
             {
                 tasks?.map(task => {
                     if( !task.status ){

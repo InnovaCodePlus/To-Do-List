@@ -9,6 +9,8 @@ export const CardTask = ({ task, setTasks, tasks }) => {
         );
         setTasks([...newArrayTask, task]);
 
+        localStorage.setItem('tasks', JSON.stringify(tasks))
+
     }
 
     return (

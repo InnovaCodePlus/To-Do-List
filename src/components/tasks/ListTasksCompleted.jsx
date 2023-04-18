@@ -4,7 +4,7 @@ import { CardTask } from '.'
 export const ListTasksCompleted = ({ tasks, setTasks }) => {
     return (
         <>
-            <h2>Tareas completas</h2>
+            <h2 className='text-2xl mb-3'>Tareas completas</h2>
             {
                 tasks?.map(task => {
                     if( task.status ){
